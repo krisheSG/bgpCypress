@@ -1,0 +1,19 @@
+{
+  "ignoreTestFiles": "**/examples/*",
+  "viewportWidth": 1024,
+  "viewportHeight": 1024,
+  "testFiles": "**/features/*.{feature,features}",
+  "defaultCommandTimeout": 90000,
+  "requestTimeout": 20000,
+  "responseTimeout": 20000,
+  "video": false,
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "reportDir": "cypress/results/json",
+    "overwrite": true,
+    "charts": true,
+    "html": true,
+    "json": true,
+    "timestamp": "mmddyyyy_HHMMss"
+  }
+}

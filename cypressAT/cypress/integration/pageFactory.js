@@ -1,0 +1,23 @@
+import BgpPortalHomePage from "./pages/bgpPortalHomePage";
+import CorpPassLoginPage from "./pages/corpPassLoginPage";
+import MyGrantPage from "./pages/myGrantPage";
+import MyGrantApplication from "./pages/application_form";
+import Eligibility from "./pages/section_eligibility";
+import CommonSectionLoctors from "./pages/section_commonfunctions";
+import Contact_details from "./pages/section_contact_details";
+import Proposal from "./pages/section_proposal";
+import BusinessImpactsection from "./pages/section_businessimpact";
+import Costsection from "./pages/section_cost";
+import DeclareReview from "./pages/section_decreview";
+
+export const bgpPortalHomePage = new BgpPortalHomePage();
+export const corpPassLoginPage = new CorpPassLoginPage();
+export const myGrantPage = new MyGrantPage();
+export const myGrantApplication = new MyGrantApplication();
+export const eligibility = new Eligibility();
+export const commonSectionLoctors = new CommonSectionLoctors();
+export const contact_details = new Contact_details();
+export const proposal = new Proposal();
+export const businessImpactsection = new BusinessImpactsection();
+export const costsection = new Costsection();
+export const declareReview = new DeclareReview();

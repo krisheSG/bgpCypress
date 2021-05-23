@@ -1,0 +1,73 @@
+[
+  {
+    "description": "    Feature Description",
+    "keyword": "Feature",
+    "name": "Feature name",
+    "line": 1,
+    "id": "feature-name",
+    "tags": [],
+    "uri": "UC01.feature",
+    "elements": [
+      {
+        "id": "feature-name;user-story-2-–-contact-details-section",
+        "keyword": "Scenario",
+        "line": 42,
+        "name": "User Story 2 – Contact Details Section",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user logged in BGP portal",
+            "result": {
+              "status": "passed",
+              "duration": 8199000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "logged in CorpPass with given authentication",
+            "result": {
+              "status": "passed",
+              "duration": 3655000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "user launched the \"MY GRANT\" application to get new grant",
+            "result": {
+              "status": "passed",
+              "duration": 9430000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "started and proceed to submit application form with \"IT\", Bring my business overseas, Market Readiness Assistance",
+            "result": {
+              "status": "passed",
+              "duration": 4787000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 43,
+            "name": "saved the contact details with \"same\" address and contact",
+            "result": {
+              "status": "passed",
+              "duration": 11176000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

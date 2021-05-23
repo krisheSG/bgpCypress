@@ -1,0 +1,100 @@
+{
+  "login": {
+    "baseUrl": "https://bgp-qa.gds-gov.tech",
+    "username": "public",
+    "password": "Let$BeC001"
+  },
+  "userdetails": {
+    "nric": "S1234567A",
+    "CPUID_FullName": "Tan Ah Kow",
+    "uen": "BGPQEDEMO",
+    "role": "Acceptor"
+  },
+
+  "contactSection": {
+    "name": "testuser001",
+    "jobTitle": "jobTitle001",
+    "phone": "98123399",
+    "primaryEmail": "testuser001@testuser001.com",
+    "secondaryEmail": "stestuser001@stestuser001.com",
+    "mailingAddress": {
+      "postalCode": "650320",
+      "houseNo": "320",
+      "street": "BUKIT BATOK STREET 33",
+      "level": "03",
+      "unit": "33",
+      "buildingname": ""
+    },
+    "sameasregisteredaddressinCompanyProfile": "false",
+    "secondaryAddress": {
+      "postalCode": "650323",
+      "houseNo": "323",
+      "street": "BUKIT BATOK STREET 33",
+      "level": "11",
+      "unit": "11",
+      "buildingname": "Sectestbuilding"
+    },
+    "sameasmaincontactperson": "true",
+    "sameContacts": {
+      "name": "testuser001",
+      "jobTitle": "jobTitle001",
+      "email": "testuser001@testuser001.com"
+    },
+    "alternateContacts": {
+      "name": "AltAddress001",
+      "jobTitle": "AltjobTitle001",
+      "email": "alttest001@test001.com"
+    },
+    "sameContact": "true"
+  },
+  "proposalSection": {
+    "title": "Test Market Research",
+    "startDate": "12 Jul 2021",
+    "endDate": "12 Jun 2022",
+    "description": "test desc001",
+    "activity": "FTA Consultancy",
+    "market": "Thailand",
+    "remarks": "test remarks"
+  },
+  "businessImpact": {
+    "endDate": "12 May 2020",
+    "overseasSales": {
+      "currentYear": "20000",
+      "year1": "30000",
+      "year2": "40000",
+      "year3": "58000"
+    },
+    "overseasInvestments": {
+      "currentYear": "45000",
+      "year1": "20000",
+      "year2": "10000",
+      "year3": "8000"
+    },
+    "rationale": "test data",
+    "benefits": "test benefits"
+  },
+  "cost": {
+    "remarks": "test remarks",
+    "vendor": {
+      "name": "ADVANTEST CORPORATE OFFICE (SINGAPORE) PTE. LTD.",
+      "amount": "9000",
+      "remarks": "test remarks"
+    },
+    "rental": {
+      "description": "test desc",
+      "duration": "10",
+      "amount": "54000",
+      "remarks": "test remarks"
+    },
+    "salary": {
+      "name": "test desc",
+      "designation": "testdesign",
+      "identification": "G1110000",
+      "nationality": "Singaporean",
+      "role": "testrole",
+      "duration": "10",
+      "amount": "21000",
+      "remarks": "test remarks"
+    }
+  }
+}
