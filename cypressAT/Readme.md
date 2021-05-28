@@ -11,7 +11,11 @@
 ```
 
 Generate HTML report
+```
 node .\cucumber-html-report.js
+```
 
 View HTML Report
+```
 "./htmlreports/report.html"
+```
